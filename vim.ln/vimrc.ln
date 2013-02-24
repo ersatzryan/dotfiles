@@ -1,0 +1,67 @@
+let mapleader=","
+
+set nocompatible
+set encoding=utf-8
+
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+source ~/.vim/bundles.vim
+
+syntax enable
+
+" no line wraps
+set nowrap
+
+" show whitespace(tab,trailing)
+set list
+set listchars=tab:\ \
+set listchars+=trail:·
+set listchars+=extends:►
+set listchars+=precedes:◀
+
+" no error or visual error annoyance
+set noerrorbells
+set visualbell t_vb=
+
+set history=200                 " Remember last 200 commands
+set undolevels=1000             " 1000 undo
+
+" search
+set hlsearch
+set showmatch
+set incsearch
+set ignorecase
+set smartcase
+
+" tabs and indents
+set autoindent smartindent
+set smarttab
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set shiftround
+set copyindent
+set preserveindent
+
+filetype on
+filetype indent on
+filetype plugin on
+filetype plugin indent on
+
+" turn off all backups and swp files
+set nobackup
+set nowritebackup
+set noswapfile
+set viminfo=
+
+set laststatus=2
+set cmdheight=1             " height of status line
+set showcmd
+
+" tab completion of commands
+set wildmenu
+set wildmode=list:longest
+
+set backspace=2             " backspace over indent, eol, start
+set showmatch               " show maching bracket/parens
