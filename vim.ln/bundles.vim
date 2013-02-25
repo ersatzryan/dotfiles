@@ -9,4 +9,6 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-rails'
+
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'kien/ctrlp.vim'
