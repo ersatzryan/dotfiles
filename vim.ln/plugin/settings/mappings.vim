@@ -12,3 +12,10 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+""" Fugitive
+nmap <leader>gb :Gblame<CR>
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gd :Gdiff<CR>
+nmap <leader>gl :Glog<CR>
+nmap <leader>gc :Gcommit<CR>
