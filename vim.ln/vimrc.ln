@@ -9,6 +9,8 @@ call vundle#rc()
 source ~/.vim/bundles.vim
 
 syntax enable
+set number
+set ruler
 
 " no line wraps
 set nowrap
