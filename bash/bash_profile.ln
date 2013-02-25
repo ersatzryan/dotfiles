@@ -9,4 +9,4 @@ done
 
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
-for f in `find $DIR -name '*.bash'`; do `source "$f"`; done
+for f in `find $DIR -name '*.bash'`; do source "$f"; done
