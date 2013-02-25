@@ -10,6 +10,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-markdown'
 
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
