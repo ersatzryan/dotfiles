@@ -12,3 +12,4 @@ Bundle 'tpope/vim-rails'
 
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/nerdtree'

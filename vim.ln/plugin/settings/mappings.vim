@@ -19,3 +19,6 @@ nmap <leader>gs :Gstatus<CR>
 nmap <leader>gd :Gdiff<CR>
 nmap <leader>gl :Glog<CR>
 nmap <leader>gc :Gcommit<CR>
+
+""" NERDTree
+nmap <leader>n :NERDTreeToggle<CR>
