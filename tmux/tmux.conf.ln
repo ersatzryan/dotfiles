@@ -29,3 +29,5 @@ bind-key -t vi-copy v begin-selection
 bind-key -t vi-copy y copy-selection
 bind-key -t vi-copy Escape cancel
 bind-key y run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
+
+source-file ~/.tmux.colors
