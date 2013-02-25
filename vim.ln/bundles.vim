@@ -21,3 +21,4 @@ Bundle 'godlygeek/tabular'
 
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'skwp/vim-powerline'
