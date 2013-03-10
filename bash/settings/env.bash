@@ -1,6 +1,6 @@
 export PATH="/.bin:/usr/local/bin:/usr/local/share/npm/bin:$PATH"
 export EDITOR="vim"
-export NODE_PATH="/usr/local/lib/node_modules"
+export NODE_PATH="/usr/local/lib/node"
 export LANG="en_US.UTF-8"
 export PGLOG="/usr/local/var/postgres/server.log"
 export TERM="screen-256color"
