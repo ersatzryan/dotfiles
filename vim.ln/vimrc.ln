@@ -59,7 +59,17 @@ set nowritebackup
 set noswapfile
 set viminfo=
 
-set laststatus=2
+set laststatus=1
+
+set statusline=%f                               " tail of the filename
+set statusline+=%=                              " left/right separator
+set statusline+=%y                              " filetype
+set statusline+=%m                              " modified flag
+set statusline+=[%{strlen(&fenc)?&fenc:'none'}, " file encoding
+set statusline+=%{&ff}]                         " file format
+set statusline+=[%c,                            " cursor column
+set statusline+=%l/%L]                          " cursor line/total lines
+
 set cmdheight=1             " height of status line
 set showcmd
 
@@ -69,3 +79,6 @@ set wildmode=list:longest
 
 set backspace=2             " backspace over indent, eol, start
 set showmatch               " show maching bracket/parens
+
+" Source .vimrc on save
+autocmd! bufwritepost ~/.vimrc  source ~/.vimrc
