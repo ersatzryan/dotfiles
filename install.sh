@@ -7,3 +7,5 @@ for f in `find $( dirname "$BASH_SOURCE[0]" ) -name '*.ln'`; do
 
   ln -s "$( greadlink -f "$f" )" "$HOME/.${filename%.ln}"
 done
+
+vim -u ~/.vim/bundles.vim +BundleInstall +qall
