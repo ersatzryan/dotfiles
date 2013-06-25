@@ -31,4 +31,5 @@ source-file ~/.tmux.colors
 
 set -g status-justify centre #show windows in the center
 set -g status-left-length 0
-set -g status-right-length 0
+set -g status-right-length 40
+set -g status-right "#S "
