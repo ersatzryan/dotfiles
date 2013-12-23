@@ -7,6 +7,7 @@ filetype off
 Bundle 'gmarik/vundle'
 
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'benmills/vimux'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-abolish'
 Bundle 'tpope/vim-endwise'
