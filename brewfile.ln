@@ -1,0 +1,14 @@
+update
+
+install bash-completion
+install git
+install git-extras
+install heroku-toolbelt
+install mongodb
+install phantomjs
+install postgresql
+install rbenv
+install redis
+install the_silver_search
+install tmux
+install vim --override-system-vi
