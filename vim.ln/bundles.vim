@@ -34,5 +34,6 @@ Plugin 'KohPoll/vim-less'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'jnwhiteh/vim-golang'
+Plugin 'slim-template/vim-slim'
 
 call vundle#end()
