@@ -16,3 +16,16 @@ nmap <leader>gc :Gcommit<CR>
 
 """ NERDTree
 nmap <leader>n :NERDTreeToggle<CR>
+
+""" Inside | Support
+" ci|
+" di|
+" vi|
+nnoremap di\| T\|d,
+nnoremap da\| F\|d,
+nnoremap ci\| T\|c,
+nnoremap ca\| F\|c,
+nnoremap yi\| T\|y,
+nnoremap ya\| F\|y,
+nnoremap vi\| T\|v,
+nnoremap va\| F\|v,
